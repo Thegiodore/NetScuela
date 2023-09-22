@@ -1,2 +1,2 @@
 # NetScuela
-Chat kayo sa gf if may tanong
+Chat kayo sa gc if may tanong
