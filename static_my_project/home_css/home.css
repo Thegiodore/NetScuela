@@ -8,17 +8,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 99.99vh;
 }
 .container {
     background-color: rgb(128,0,0);
     vertical-align: middle;
     text-align: center;
     padding: 20px 30px;
-    height: 94.75vh;
+    height: 94.6vh;
     width: 500px;
     position: absolute;
-    right: 45px;
+    display: block;
+    right: 0;
+    top: 0;
+    bottom: 0;
     opacity: 1;
 }
 .title {
