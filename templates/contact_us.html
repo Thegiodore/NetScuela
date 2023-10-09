@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>About Us</title>
+		<meta charset="utf-8" />
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{% static 'sidebar_css/sidebar.css' %}">
+                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
+		        <link rel="stylesheet" href="{% static 'contact_us_css/socials.css' %}"><link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	</head>
+    <body>
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="sidebar">
+        <header>MENU</header>
+        <ul>
+            <li><a href="home.html"><i class="fas fa-question-circle" style="color:gold"></i>Home</a></li>
+            <li><a href="contact_us.html"><i class="far fa-envelope" style="color:gold"></i>About Us</a></li>
+        </ul>
+    </div>
+</body>
+    <body>
+<a href="#" class="photo">
+  <h1>Member</h1>
+    <img src="{% static 'home_css/library.jpg' %}" />
+  <div class="glow-wrap">
+    <i class="glow"></i>
+  </div>
+</a>
+    </body>
+</html>
