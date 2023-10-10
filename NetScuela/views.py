@@ -3,3 +3,6 @@ from django.views.generic import CreateView
 def index(request):
     return render(request, 'home.html')
 
+def contact_us(request):
+    return render(request, 'contact_us.html')
+
