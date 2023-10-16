@@ -28,6 +28,7 @@ urlpatterns = [
     path('account/', include('signup.urls')),
     path('about_us/', about_us, name='about_us'),
     path('contact_us/', contact_us, name='contact_us'),
+    path('todo/', include('todo.urls'))
 ]
 
 if settings.DEBUG:

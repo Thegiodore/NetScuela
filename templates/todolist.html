@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NetScuela</title>
+</head>
+<body>
+{% for foo in object_list %}
+    {{ foo.title }}<br>
+    {{ foo.user }}<br>
+    {{ foo.content }}<br>
+    {{ foo.createdAt }}<br><br>
+{% endfor %}
+</body>
+</html>
