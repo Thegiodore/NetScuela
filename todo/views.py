@@ -11,10 +11,11 @@ class IndivTodo(DetailView):
     template_name = "indivtodo.html"
 
     def get_object(self, queryset=Todo.objects.all()):
+        print(self.kwargs)
         return Todo.objects.get(id=1)
 
 class MakeNotify(CreateView):
     form_class = TodoModelForm
     template_name = "makenotify.html"
-    success_url = "todo/"
+
 # Create your views here.
