@@ -12,7 +12,9 @@ class IndivTodo(DetailView):
 
     def get_object(self, queryset=Todo.objects.all()):
         print(self.kwargs)
-        return Todo.objects.get(id=1)
+        pk = self.kwargs.get("pk")
+        print(pk)
+        return Todo.objects.get(id=pk)
 
 class MakeNotify(CreateView):
     form_class = TodoModelForm
