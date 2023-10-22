@@ -10,7 +10,7 @@ class SignUpCreateView(CreateView):
     if(SignUp.password1 == SignUp.password2):
         success_url = "todo/"
     else:
-        success_url = "account/signup"
+        success_url = "account/authentication"
 
 
 class LoginCreateView(CreateView):
