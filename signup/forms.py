@@ -10,7 +10,7 @@ class SignUpModelForm(forms.ModelForm):
             'lastname',
             'email',
             'password1',
-            'password2'
+            'password2',
         ]
 
 
